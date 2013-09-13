@@ -8,7 +8,7 @@ body {
 	padding: 60px;
 	opacity:0.9;
     filter:alpha(opacity=90); /* For IE8 and earlier */
-	height: 350px;
+	min-height: 350px;
 	border-radius:10px;
 	border-style:double;
 	border-color:#ffffff;
@@ -39,4 +39,18 @@ input[type=button] {
 	-moz-box-shadow:0px 0px 2px 0px #fc8b8b;
 	background-color: #fdd2d2;
 	text-shadow: 0px px 2px black;
+}
+
+ol {
+	margin: 0 auto;
+	background-color: #ff5454;
+	border-radius: 12px;
+	font-family: 'Advent Pro', sans-serif;
+	color: #ffffff;
+	min-width: 150px;
+	max-width: 690px;
+	font-size: 1.5em;
+	text-align: center;
+	list-style: circle;
+	width:150px;
 }
